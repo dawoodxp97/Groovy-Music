@@ -6,7 +6,7 @@
 Groovy music is a music streaming application with functionality like stream songs in Real-Time, Playlists stream etc.
   <br>
 
-  <a href=""> Live Demo </a>
+  <a href="https://groovy-music.netlify.app/"> Live Demo </a>
 </div>
 <br>
 <div align="center">
