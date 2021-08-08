@@ -1,0 +1,86 @@
+.tracks {
+  background-color: hsl(0deg 0% 5%);
+  width: 100%;
+  height: auto;
+  border: 1px solid grey;
+  border-radius: 2vw;
+  display: flex;
+  flex-direction: column;
+}
+.track {
+  margin: 1vw;
+  border-radius: 1vw;
+  padding-left: 0.5vw;
+  margin-top: 2vw;
+  width: 98%;
+  height: 5vw;
+  display: flex;
+  align-items: center;
+  transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+.track:hover {
+  background-color: hsl(0deg 0% 0%);
+  transform: scale(1.01);
+}
+.track_img {
+  flex: 0.1;
+  height: 100%;
+}
+.track_img > img {
+  height: 100%;
+  width: 80%;
+  border-radius: 1vw;
+}
+.track_info {
+  flex: 0.5;
+}
+.track_info > p {
+  margin: 0;
+}
+.track_ext {
+  flex: 0.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.track_play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0.2;
+}
+.track_play > div {
+  background-color: hsl(0deg 0% 5%);
+  height: 3vw;
+  width: 7vw;
+  border: 2px solid hsl(0deg 0% 11%);
+  border-radius: 2vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.track_play > div > .MuiSvgIcon-root {
+  cursor: pointer;
+  margin-left: 1.1vw;
+  color: hsl(0deg 0% 53%);
+}
+.track_play_btn {
+  background-color: hsl(0deg 0% 5%);
+  border: 1px solid hsl(0deg 0% 22%);
+  margin-left: 0.6vw;
+  height: 3.5vw;
+  width: 3.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.track_play_btn:hover {
+  background-color: hsl(93deg 68% 53%);
+}
+.singers {
+  font-size: small;
+  margin-top: 2px;
+  color: gray;
+}

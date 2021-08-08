@@ -1,0 +1,31 @@
+.home {
+  display: flex;
+  height: 100vh;
+}
+.sidebar_div {
+  flex: 0.1;
+}
+.homepage {
+  flex: 0.9;
+  overflow-y: scroll;
+  padding-left: 0.5vw;
+  padding-top: 2.5vw;
+  padding-right: 2.5vw;
+  padding-bottom: 4vw;
+}
+.home_cards {
+  min-height: 23vw;
+  margin-top: 2vw;
+  height: 20vw;
+  display: grid;
+  grid-gap: 25px;
+  gap: 20px;
+  padding-top: 1vw;
+  padding-right: 1vw;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+@media (max-width: 768px) {
+  .home_cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
